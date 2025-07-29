@@ -1,0 +1,372 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "Hello", "Halo", "Hai", "Pagi", "Siang", "Sore",
+        "Assalamualaikum", "Selamat pagi", "Selamat siang", "Selamat sore",
+        "Halo bot", "Hai chatbot", "Ada yang bisa bantu?", "Permisi",
+        "Excuse me", "Hallo", "Yo", "Woi", "Bang", "Kak", "Apa kabar",
+        "Gimana nih", "Howdy", "Good morning", "Good afternoon", "Sup",
+        "Aloha", "Konnichiwa", "Anyeong", "Bonjour", "Moshi moshi",
+        "Selamat malam", "Good evening", "Malem", "Test", "Testing",
+        "Halo kawan", "Hai sobat", "Morning", "Afternoon", "Evening",
+        "Salam", "Salam kenal", "Kenalan dong", "Introduce yourself",
+        "Siapa nih", "Bot apa ini", "Aplikasi apa", "Chatbot ya",
+        "Bismillah", "Mulai", "Start", "Begin", "Awalan",
+        "Helo", "Helow", "Helo bot", "Bot halo", "Chat yuk",
+        "Ngobrol", "Diskusi", "Tanya dong", "Mau tanya", "Butuh info"
+      ],
+      "responses": [
+        "Halo! Ada yang bisa saya bantu seputar info akademik?",
+        "Hai! Mau tanya apa nih tentang kuliah?",
+        "Selamat datang! Silakan tanya-tanya seputar kampus yaa",
+        "Halo kak! Ada pertanyaan tentang jadwal, nilai, atau yang lain?",
+        "Hi! Saya siap membantu dengan informasi akademik 😊",
+        "Wassalamualaikum! Ada yang bisa dibantu tentang kuliah?",
+        "Yooo! Gimana kuliahnya? Ada yang perlu ditanyain?",
+        "Selamat datang di chatbot informasi akademik! 🎓"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you", "Sampai jumpa", "Dadah", "Selamat tinggal",
+        "Thanks bye", "Makasih ya", "Udah cukup", "Sudah selesai", "Baiklah",
+        "Oke makasih", "Terima kasih banyak", "Cukup segitu aja", "Udahan dulu",
+        "Gitu aja", "Oke siap", "Mantap terima kasih", "Perfect thanks"
+      ],
+      "responses": [
+        "Sama-sama! Semoga informasinya membantu ya 😊",
+        "Terima kasih sudah menggunakan layanan chatbot akademik!",
+        "Sampai jumpa! Jangan ragu tanya lagi kalau butuh info",
+        "Bye! Semoga kuliahnya lancar terus ya 📚",
+        "See you! Sukses selalu untuk studinya! 🎓",
+        "Dadah! Kapan-kapan tanya lagi kalau ada yang bingung"
+      ]
+    },
+    {
+      "tag": "jadwal_kuliah",
+      "patterns": [
+        "Jadwal kuliah hari ini", "Jadwal hari ini", "Kelas apa aja hari ini",
+        "Jam berapa kuliah", "Kuliah jam berapa", "Kelas jam berapa",
+        "Jadwal besok", "Kuliah besok jam berapa", "Ada kuliah nggak hari ini",
+        "Mata kuliah hari ini", "Schedule hari ini", "Agenda kuliah",
+        "Kelas dimulai jam berapa", "Kuliah pertama jam berapa",
+        "Jadwal minggu ini", "Kuliah libur nggak", "Hari ini ada kelas nggak",
+        "Kapan kelas dimulai", "Jam kuliah", "Waktu perkuliahan",
+        "Matkul apa aja hari ini", "Kelas berapa jam", "Jadwal kelas",
+        "Schedule kuliah", "Timetable", "Agenda harian", "Rundown kuliah",
+        "Kuliah mulai kapan", "Kelas pertama jam berapa", "Jadwal lengkap",
+        "Jadwal senin", "Jadwal selasa", "Jadwal rabu", "Jadwal kamis", "Jadwal jumat",
+        "Kelas senin", "Kelas selasa", "Kelas rabu", "Kelas kamis", "Kelas jumat",
+        "Minggu depan jadwal", "Bulan ini jadwal", "Semester ini jadwal",
+        "Kuliah online", "Kuliah offline", "Hybrid kuliah", "Kelas virtual",
+        "Zoom kuliah", "Meet kuliah", "Link kuliah", "Akses kelas online",
+        "Ganti jadwal", "Jadwal berubah", "Update jadwal", "Revisi jadwal",
+        "Kuliah ditunda", "Kelas dibatalkan", "Jadwal baru", "Pengumuman jadwal",
+        "Cek jadwal", "Lihat jadwal", "Akses jadwal", "Portal jadwal",
+        "Aplikasi jadwal", "Website jadwal", "Sistem jadwal", "Info jadwal"
+      ],
+      "responses": [
+        "Untuk melihat jadwal kuliah terkini, silakan cek portal akademik atau aplikasi mobile kampus ya!",
+        "Jadwal kuliah bisa dilihat di sistem informasi akademik. Login pakai NIM dan password kamu.",
+        "Coba cek di portal mahasiswa atau tanya ke admin prodi untuk jadwal update.",
+        "Jadwal kuliah real-time ada di aplikasi kampus. Pastikan sudah login ya!",
+        "Buka website atau app kampus, login dengan akun mahasiswa untuk lihat jadwal terbaru.",
+        "Jadwal bisa berubah sewaktu-waktu, jadi selalu cek portal resmi kampus ya!",
+        "Hubungi admin prodi atau cek grup WhatsApp angkatan untuk jadwal terkini."
+      ]
+    },
+    {
+      "tag": "cek_nilai",
+      "patterns": [
+        "Cara cek nilai", "Gimana liat nilai", "Nilai udah keluar belum",
+        "Cek nilai UTS", "Nilai UAS", "Hasil ujian", "Cara liat IPK",
+        "Dimana lihat nilai", "Portal nilai", "Nilai semester ini",
+        "Nilai matkul", "Grade nilai", "Transcript nilai", "Cara akses nilai",
+        "Login nilai", "Sistem nilai", "Hasil UTS", "Hasil UAS",
+        "IPK berapa", "Indeks prestasi", "Transkrip nilai", "Report card",
+        "Cara download transkrip", "Print nilai", "Cetak transkrip",
+        "KHS", "Kartu hasil studi", "Semester hasil", "Academic record",
+        "Nilai keluar kapan", "Kapan nilai publish", "Pengumuman nilai",
+        "Nilai kosong", "Nilai belum ada", "Nilai error", "Masalah nilai",
+        "Komplain nilai", "Protes nilai", "Banding nilai", "Revisi nilai",
+        "Nilai salah", "Nilai tidak sesuai", "Koreksi nilai", "Update nilai",
+        "Status kelulusan", "Lulus tidak", "Remedial nilai", "Nilai kurang",
+        "Minimal IPK", "Syarat IPK", "IPK cumlaude", "IPK minimal wisuda",
+        "Konversi nilai", "Skala nilai", "Grade A B C D", "Nilai angka huruf",
+        "Bobot nilai", "SKS nilai", "Kredit nilai", "Poin nilai"
+      ],
+      "responses": [
+        "Nilai bisa dicek di portal akademik dengan login NIM. Biasanya keluar 1-2 minggu setelah ujian.",
+        "Login ke portal mahasiswa, pilih menu 'Nilai' atau 'Transkrip' untuk melihat hasil ujian.",
+        "Untuk cek nilai: masuk portal akademik → menu akademik → nilai semester atau transkrip.",
+        "Nilai ujian biasanya diupload dosen dalam 2 minggu. Cek berkala di portal ya!",
+        "Buka website kampus → login → pilih menu akademik → lihat KHS atau transkrip.",
+        "Kalau nilai belum keluar, coba tanya langsung ke dosennya atau admin prodi.",
+        "Download aplikasi kampus di smartphone, lebih praktis untuk cek nilai kapan saja!"
+      ]
+    },
+    {
+      "tag": "ruang_kelas",
+      "patterns": [
+        "Ruang kelas dimana", "Lokasi ruang", "Gedung mana", "Lantai berapa",
+        "Cara ke ruang", "Arah ke kelas", "Ruang A101 dimana", "Gedung A",
+        "Lab dimana", "Kelas pindah ke mana", "Ruang ganti", "Lokasi lab",
+        "Gedung kuliah", "Kampus mana", "Fakultas dimana", "Jurusan lokasi",
+        "Ruang ujian", "Tempat UTS", "Lokasi UAS", "Aula dimana",
+        "Perpustakaan dimana", "Kantin lokasi", "Musholla dimana", "Toilet dimana",
+        "Parkir dimana", "ATM kampus", "Fotocopy dimana", "Warung terdekat"
+      ],
+      "responses": [
+        "Untuk lokasi ruangan spesifik, coba cek peta kampus di website atau tanya security ya!",
+        "Setiap gedung biasanya ada penomoran ruang. Gedung A untuk ruang A101, dst.",
+        "Kalau nyasar, tanya ke mahasiswa senior atau petugas keamanan kampus.",
+        "Download peta kampus di website resmi atau lihat papan informasi di setiap gedung.",
+        "Ruang lab biasanya terpisah dari kelas reguler, cek jadwal untuk lokasi pastinya.",
+        "Ikuti penunjuk arah di koridor atau tanya ke front desk gedung tersebut.",
+        "Kalau kelas pindah mendadak, biasanya ada pengumuman di grup atau papan informasi."
+      ]
+    },
+    {
+      "tag": "absensi",
+      "patterns": [
+        "Absen berapa persen", "Kehadiran minimal", "Alfa berapa kali", "Batas absen",
+        "Minimal hadir", "Absensi kurang", "Tidak hadir", "Izin tidak masuk",
+        "Sakit berapa hari", "Cuti kuliah", "Alpha maksimal", "Hadir berapa kali",
+        "Presentase kehadiran", "Syarat kehadiran", "Kalau sering bolos",
+        "Konsekuensi tidak hadir", "Sanksi absen", "Remedial absen",
+        "Ketinggalan kuliah", "Skip kelas", "Bolos kuliah", "Absent rate"
+      ],
+      "responses": [
+        "Umumnya kehadiran minimal 75% untuk bisa ikut ujian. Cek aturan prodi masing-masing ya!",
+        "Kalau absen lebih dari 25%, biasanya tidak diizinkan ikut UAS.",
+        "Setiap matkul punya aturan absensi berbeda, tanya ke dosen pengampu.",
+        "Kalau sakit atau ada keperluan penting, segera lapor ke dosen dan admin prodi.",
+        "Jangan sampai alpha lebih dari 3-4 kali dalam satu semester ya!",
+        "Rekap absensi bisa dilihat di portal mahasiswa atau tanya langsung ke dosen.",
+        "Kalau absensi kurang, ada kemungkinan nilai akhir dikurangi atau harus mengulang."
+      ]
+    },
+    {
+      "tag": "pembayaran_spp",
+      "patterns": [
+        "Cara bayar SPP", "SPP berapa", "Biaya kuliah", "Uang semester",
+        "Deadline pembayaran", "Batas waktu SPP", "Bank mana", "Transfer SPP",
+        "SPP telat", "Denda keterlambatan", "Cicil SPP", "Keringanan biaya",
+        "Beasiswa", "Bantuan biaya", "KIP kuliah", "Biaya pendidikan",
+        "Tunggakan SPP", "Cara pelunasan", "Potongan biaya", "Discount SPP",
+        "Virtual account", "Kode pembayaran", "ATM bayar", "Internet banking"
+      ],
+      "responses": [
+        "SPP bisa dibayar melalui bank yang bekerjasama dengan kampus atau virtual account.",
+        "Cek kode pembayaran dan nominal SPP di portal mahasiswa atau tagihan resmi.",
+        "Deadline pembayaran biasanya awal semester, jangan sampai telat ya!",
+        "Kalau telat bayar SPP bisa kena denda atau diblokir akses akademik.",
+        "Untuk keringanan atau cicilan SPP, hubungi bagian keuangan kampus.",
+        "Pastikan simpan bukti pembayaran SPP untuk jaga-jaga kalau ada masalah.",
+        "Info beasiswa dan bantuan biaya bisa ditanyakan ke bagian kemahasiswaan."
+      ]
+    },
+    {
+      "tag": "perpustakaan",
+      "patterns": [
+        "Jam buka perpus", "Perpustakaan tutup jam berapa", "Buku apa aja",
+        "Cara pinjam buku", "Denda buku", "Perpanjang pinjaman", "Katalog buku",
+        "Ruang baca", "Study area", "WiFi perpus", "Komputer perpus",
+        "Kartu anggota", "Member perpustakaan", "Fotocopy perpus", "Print dokumen",
+        "E-book", "Jurnal online", "Database perpus", "Repository",
+        "Skripsi referensi", "Tesis online", "Paper akademik", "Research material"
+      ],
+      "responses": [
+        "Perpustakaan biasanya buka pagi sampai sore. Cek jadwal operasional di website ya!",
+        "Untuk pinjam buku perlu kartu mahasiswa dan ikuti prosedur yang berlaku.",
+        "Denda keterlambatan pengembalian buku biasanya Rp 1000 per hari per buku.",
+        "Buku bisa diperpanjang maksimal 2 kali kalau tidak ada yang booking.",
+        "Gunakan katalog online untuk cari buku yang dibutuhkan sebelum ke perpus.",
+        "Ruang baca tersedia untuk study group atau belajar mandiri dengan suasana tenang.",
+        "E-book dan jurnal online bisa diakses pakai akun mahasiswa dari mana saja."
+      ]
+    },
+    {
+      "tag": "wifi_internet",
+      "patterns": [
+        "Password WiFi", "Internet kampus", "WiFi lemot", "Koneksi buruk",
+        "Cara connect WiFi", "Username WiFi", "Login internet", "Hotspot kampus",
+        "Bandwidth", "Speed internet", "Download limit", "Quota internet",
+        "WiFi tidak bisa", "Error koneksi", "Troubleshooting WiFi", "Reset password WiFi",
+        "Akses internet", "Network kampus", "IT support", "Technical support"
+      ],
+      "responses": [
+        "Username dan password WiFi kampus biasanya sama dengan akun portal mahasiswa.",
+        "Kalau WiFi lemot atau bermasalah, lapor ke IT support atau helpdesk kampus.",
+        "Pastikan device sudah terdaftar di sistem kalau pakai MAC address filtering.",
+        "Coba restart WiFi atau ganti ke access point lain kalau koneksi lambat.",
+        "Untuk masalah teknis internet, hubungi bagian TI kampus atau buat ticket support.",
+        "Jangan download file besar saat jam sibuk karena bisa memperlambat koneksi bersama.",
+        "Kalau urgent dan WiFi bermasalah, coba pakai hotspot hp atau ke area lain."
+      ]
+    },
+    {
+      "tag": "info_dosen",
+      "patterns": [
+        "Dosen dimana", "Ruang dosen", "Office hour", "Jam konsultasi",
+        "Kontak dosen", "Email dosen", "WhatsApp dosen", "Telepon dosen",
+        "Dosen tidak ada", "Jadwal konsultasi", "Appointment dosen", "Meeting dosen",
+        "Pembimbing akademik", "PA", "Dosen wali", "Supervisor",
+        "Dosen pengampu", "Lecturer", "Professor", "Koordinator matkul"
+      ],
+      "responses": [
+        "Info kontak dan jadwal dosen bisa dilihat di website fakultas atau directory kampus.",
+        "Untuk konsultasi, sebaiknya buat appointment dulu via email atau WhatsApp dosen.",
+        "Office hour dosen biasanya sudah terjadwal, cek di pintu ruang atau website.",
+        "Kalau dosen tidak ada di tempat, coba hubungi sekretariat fakultas.",
+        "Setiap mahasiswa punya dosen pembimbing akademik untuk konsultasi studi.",
+        "Sopan dan profesional saat menghubungi dosen, gunakan bahasa formal.",
+        "Kalau urgent dan dosen sulit dihubungi, lapor ke ketua program studi."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Terima kasih", "Thanks", "Makasih", "Thank you", "Thx", "Tengkyu",
+        "Appreciate it", "Makasih banyak", "Terima kasih banyak", "Thanks a lot",
+        "Sangat membantu", "Helpful", "Berguna banget", "Perfect", "Mantap",
+        "Oke makasih", "Siap terima kasih", "Roger that", "Copy that"
+      ],
+      "responses": [
+        "Sama-sama! Senang bisa membantu 😊",
+        "You're welcome! Jangan ragu tanya lagi ya",
+        "Dengan senang hati! Semoga bermanfaat",
+        "No problem! Sukses selalu untuk kuliahnya",
+        "Anytime! Kapan-kapan tanya lagi kalau butuh info",
+        "Glad to help! Semoga lancar studinya 📚"
+      ]
+    },
+    {
+      "tag": "jadwal_ujian",
+      "patterns": [
+        "Jadwal UTS", "Jadwal UAS", "Kapan ujian", "Jadwal ujian", "Schedule exam",
+        "UTS kapan", "UAS kapan", "Mid exam", "Final exam", "Test schedule",
+        "Ujian hari apa", "Ujian jam berapa", "Ruang ujian", "Lokasi ujian",
+        "Persiapan ujian", "Materi ujian", "Syllabus ujian", "Exam preparation",
+        "Retake exam", "Ujian susulan", "Make up test", "Remedial exam"
+      ],
+      "responses": [
+        "Jadwal ujian (UTS/UAS) biasanya diumumkan 2 minggu sebelumnya di portal akademik.",
+        "Cek portal mahasiswa atau pengumuman resmi prodi untuk jadwal ujian terbaru.",
+        "Pastikan cek ruang ujian sehari sebelumnya karena bisa berbeda dengan ruang kuliah.",
+        "Siapkan kartu ujian, KTM, dan alat tulis yang diizinkan saat ujian.",
+        "Kalau ada bentrok jadwal ujian, segera lapor ke admin prodi untuk solusinya.",
+        "Untuk ujian susulan karena sakit, perlu surat keterangan dokter dan izin resmi.",
+        "Datang minimal 15 menit sebelum ujian dimulai dan patuhi protokol yang berlaku."
+      ]
+    },
+    {
+      "tag": "kontak_admin",
+      "patterns": [
+        "Kontak admin", "Nomor admin", "Email admin", "Admin prodi", "Sekretariat",
+        "Customer service", "Help desk", "Contact center", "Admin akademik",
+        "Bagian akademik", "Tata usaha", "TU", "Front office", "Reception",
+        "Komplain ke mana", "Lapor masalah", "Pengaduan", "Saran", "Kritik"
+      ],
+      "responses": [
+        "Kontak admin prodi dan sekretariat fakultas bisa dilihat di website resmi kampus.",
+        "Untuk masalah akademik, hubungi admin prodi di jam kerja (08.00-16.00).",
+        "Kalau ada komplain atau saran, bisa melalui kotak saran atau email resmi.",
+        "Setiap fakultas punya admin yang handle masalah kemahasiswaan berbeda-beda.",
+        "Pastikan menyertakan NIM dan identitas jelas saat menghubungi admin.",
+        "Untuk urgent, lebih baik datang langsung ke sekretariat atau telepon.",
+        "Sopan dan jelas saat menyampaikan masalah agar cepat mendapat solusi."
+      ]
+    },
+    {
+      "tag": "tugas_pr",
+      "patterns": [
+        "Tugas apa aja", "PR hari ini", "Assignment", "Deadline tugas",
+        "Kumpul tugas dimana", "Submit tugas", "Upload tugas", "Kirim tugas",
+        "Tugas telat", "Deadline lewat", "Perpanjang deadline", "Minta waktu tambahan",
+        "Format tugas", "Template tugas", "Panduan tugas", "Instruksi tugas",
+        "Tugas kelompok", "Tugas individu", "Project akhir", "Final project",
+        "Presentasi tugas", "Demo tugas", "Defense tugas", "Sidang tugas",
+        "Nilai tugas", "Feedback tugas", "Koreksi tugas", "Revisi tugas",
+        "Tugas sulit", "Bantuan tugas", "Konsultasi tugas", "Diskusi tugas"
+      ],
+      "responses": [
+        "Info tugas dan deadline bisa dilihat di portal akademik atau LMS kampus.",
+        "Tanya ke dosen mata kuliah atau cek grup kelas untuk info tugas terbaru.",
+        "Submit tugas sesuai deadline dan format yang ditentukan dosen ya!",
+        "Kalau ada kesulitan tugas, jangan ragu konsultasi dengan dosen.",
+        "Pastikan cek email kampus dan pengumuman kelas untuk update tugas.",
+        "Untuk tugas kelompok, koordinasi baik dengan anggota tim lainnya.",
+        "Simpan backup tugas dan submit sebelum deadline untuk menghindari masalah teknis."
+      ]
+    },
+    {
+      "tag": "krs_mata_kuliah",
+      "patterns": [
+        "KRS", "Kartu rencana studi", "Daftar mata kuliah", "Ambil matkul",
+        "Drop matkul", "Add matkul", "Ganti matkul", "Pindah kelas",
+        "Kuota kelas penuh", "Waiting list", "Daftar ulang", "Registrasi",
+        "Semester pendek", "Cuti kuliah", "Aktif kembali", "Status mahasiswa",
+        "Maksimal SKS", "Minimal SKS", "Beban studi", "Kredit semester",
+        "Mata kuliah wajib", "Mata kuliah pilihan", "Prasyarat matkul", "Prerequisite",
+        "Batas waktu KRS", "Deadline KRS", "Periode KRS", "Jadwal KRS",
+        "Konsultasi KRS", "Persetujuan KRS", "Validasi KRS", "Approve KRS"
+      ],
+      "responses": [
+        "KRS dibuka pada periode tertentu setiap semester. Cek portal akademik untuk jadwalnya.",
+        "Konsultasi dengan dosen pembimbing akademik sebelum mengisi KRS.",
+        "Perhatikan prasyarat mata kuliah dan maksimal SKS yang bisa diambil.",
+        "Kalau kuota kelas penuh, coba daftar waiting list atau pilih kelas lain.",
+        "Pastikan KRS sudah disetujui PA sebelum deadline untuk menghindari masalah.",
+        "Untuk drop/add mata kuliah ada periode khusus setelah KRS reguler.",
+        "Jangan lupa bayar SPP sebelum KRS agar tidak terblokir sistem."
+      ]
+    },
+    {
+      "tag": "beasiswa",
+      "patterns": [
+        "Beasiswa", "Bantuan biaya", "Scholarship", "KIP kuliah", "Bidikmisi",
+        "Beasiswa prestasi", "Beasiswa tidak mampu", "Financial aid", "Bantuan pendidikan",
+        "Syarat beasiswa", "Daftar beasiswa", "Apply beasiswa", "Pendaftaran beasiswa",
+        "Deadline beasiswa", "Seleksi beasiswa", "Wawancara beasiswa", "Test beasiswa",
+        "Pencairan beasiswa", "Transfer beasiswa", "Uang beasiswa", "Dana beasiswa",
+        "Perpanjang beasiswa", "Renew beasiswa", "Evaluasi beasiswa", "Report beasiswa",
+        "Beasiswa luar negeri", "Exchange program", "Study abroad", "International scholarship"
+      ],
+      "responses": [
+        "Info beasiswa bisa dilihat di website kemahasiswaan atau papan pengumuman.",
+        "Daftar beasiswa sesuai persyaratan dan deadline yang ditentukan.",
+        "Siapkan dokumen lengkap seperti transkrip, surat keterangan tidak mampu, dll.",
+        "Untuk beasiswa prestasi, pastikan IPK memenuhi syarat minimal.",
+        "Hubungi bagian kemahasiswaan untuk info detail dan prosedur pendaftaran.",
+        "Beasiswa biasanya ada evaluasi berkala, jaga prestasi akademik ya!",
+        "Manfaatkan beasiswa dengan baik dan patuhi kewajiban penerima beasiswa."
+      ]
+    },
+    {
+      "tag": "skripsi_thesis",
+      "patterns": [
+        "Skripsi", "Thesis", "Tugas akhir", "Final project", "Research",
+        "Proposal skripsi", "Bimbingan skripsi", "Konsultasi skripsi", "Progress skripsi",
+        "Dosen pembimbing", "Supervisor", "Advisor", "Mentor skripsi",
+        "Topik skripsi", "Judul skripsi", "Tema penelitian", "Research topic",
+        "Metodologi penelitian", "Data collection", "Analysis", "Literature review",
+        "Seminar proposal", "Seminar hasil", "Sidang skripsi", "Defense",
+        "Revisi skripsi", "Perbaikan skripsi", "Koreksi skripsi", "Edit skripsi",
+        "Deadline skripsi", "Target wisuda", "Lulus tepat waktu", "Completion"
+      ],
+      "responses": [
+        "Untuk memulai skripsi, tentukan topik dan cari dosen pembimbing terlebih dahulu.",
+        "Konsultasi rutin dengan dosen pembimbing untuk progress dan feedback.",
+        "Siapkan proposal skripsi yang matang sebelum seminar proposal.",
+        "Patuhi timeline skripsi agar bisa lulus sesuai target waktu.",
+        "Manfaatkan perpustakaan dan database online untuk literature review.",
+        "Jaga komunikasi baik dengan pembimbing dan patuhi jadwal bimbingan.",
+        "Persiapkan presentasi dan defense dengan baik untuk hasil maksimal."
+      ]
+    }
+  ]
+}
