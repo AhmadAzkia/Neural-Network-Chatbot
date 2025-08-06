@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Terima kasih atas bantuannya bot",
+        "Thanks chatbot, sangat membantu",
+        "Oke sudah cukup, bye bye",
+        "Sampai jumpa lagi bot",
+        "Thank you so much for the help",
+        "Sudah selesai, makasih ya",
+        "Baiklah sampai ketemu lagi",
+        "See you later chatbot",
+        "Jazakallahu khairan bot",
+        "Okay that's all, goodbye",
+        "bye",
+        "goodbye",
+        "sampai jumpa",
+        "see you",
+        "thanks",
+        "makasih",
+        "terima kasih",
+        "thank you",
+        "thx"
+      ],
+      "responses": [
+        "Sama-sama! Senang bisa membantu journey akademik Anda. Sukses selalu! 🌟",
+        "You're welcome! Semoga informasinya bermanfaat untuk kuliah Anda. Take care! 😊",
+        "Alhamdulillah bisa membantu. Semoga lancar kuliahnya dan raih prestasi terbaik! 🎓",
+        "Terima kasih sudah bertanya! Jangan ragu contact lagi kalau butuh info akademik ya 👋",
+        "My pleasure! Wishing you all the best in your academic endeavors. See you! ✨",
+        "Sama-sama! Keep learning, keep growing. Sampai jumpa di next conversation! 📚",
+        "Senang bisa jadi academic companion Anda. Good luck dengan semua aktivitas kuliah! 💪",
+        "Wa iyyaki/wa iyyaka! Barakallahu fiik, semoga sukses dunia akhirat. Bye! 🤲",
+        "Hope I could help make your university life easier. Until next time! 🎯",
+        "Terima kasih telah menggunakan layanan ini. Semoga info-nya berguna. Goodbye! 👋",
+        "Sure! Sama-sama! Senang bisa membantu journey akademik Anda. Sukses selalu! 🌟",
+        "Tentu! Sama-sama! Senang bisa membantu journey akademik Anda. Sukses selalu! 🌟",
+        "Sure! You're welcome! Semoga informasinya bermanfaat untuk kuliah Anda. Take care! 😊",
+        "Tentu! You're welcome! Semoga informasinya bermanfaat untuk kuliah Anda. Take care! 😊",
+        "Sure! Alhamdulillah bisa membantu. Semoga lancar kuliahnya dan raih prestasi terbaik! 🎓",
+        "Tentu! Alhamdulillah bisa membantu. Semoga lancar kuliahnya dan raih prestasi terbaik! 🎓"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Terima kasih banyak bot",
+        "Thanks for the information",
+        "Makasih banget penjelasannya",
+        "Thank you chatbot very helpful",
+        "Jazakallahu khairan atas bantuannya",
+        "Sangat membantu sekali bot",
+        "Appreciate your help chatbot",
+        "Barakallahu fiik bot",
+        "Thanks a lot for the guidance",
+        "Alhamdulillah dapat pencerahan",
+        "bye",
+        "goodbye",
+        "sampai jumpa",
+        "see you",
+        "thanks",
+        "makasih",
+        "terima kasih",
+        "thank you",
+        "thx"
+      ],
+      "responses": [
+        "Alhamdulillah bisa membantu! Semoga informasinya bermanfaat untuk perkuliahan Anda 😊",
+        "You're very welcome! Happy to assist with your academic needs anytime 🎓",
+        "Sama-sama! Senang bisa membantu. Ada pertanyaan lain seputar kampus? 📚",
+        "Wa iyyaki/wa iyyaka! Semoga Allah mudahkan urusan kuliah Anda. Aamiin 🤲",
+        "My pleasure! That's what I'm here for - to make your university experience smoother ✨",
+        "Terima kasih kembali! Jangan sungkan bertanya lagi kalau butuh informasi akademik 💡",
+        "Barakallahu fiiki/fiika! Semoga ilmunya berkah dan bermanfaat. Keep learning! 🌟",
+        "Glad I could help! Wishing you success in all your academic endeavors 🎯",
+        "Sama-sama! Academic journey is easier when you have the right information 💪",
+        "Alhamdulillahi rabbil alamiin! Senang bisa berkontribusi untuk pendidikan Anda 📖",
+        "Sure! Alhamdulillah bisa membantu! Semoga informasinya bermanfaat untuk perkuliahan Anda 😊",
+        "Tentu! Alhamdulillah bisa membantu! Semoga informasinya bermanfaat untuk perkuliahan Anda 😊",
+        "Sure! You're very welcome! Happy to assist with your academic needs anytime 🎓",
+        "Tentu! You're very welcome! Happy to assist with your academic needs anytime 🎓",
+        "Sure! Sama-sama! Senang bisa membantu. Ada pertanyaan lain seputar kampus? 📚",
+        "Tentu! Sama-sama! Senang bisa membantu. Ada pertanyaan lain seputar kampus? 📚"
+      ]
+    },
+    {
+      "tag": "unclear_response",
+      "patterns": [
+        "Saya kurang paham dengan jawaban bot",
+        "Bisa dijelaskan lebih detail gak?",
+        "Jawabannya kurang jelas nih",
+        "Can you elaborate more on that?",
+        "Maksudnya gimana ya bot?",
+        "Penjelasannya agak membingungkan",
+        "Could you clarify what you mean?",
+        "Bisa kasih contoh konkretnya gak?",
+        "Saya masih bingung dengan penjelasannya",
+        "Need more specific information please"
+      ],
+      "responses": [
+        "Maaf kalau penjelasannya kurang jelas! Bisa sebutkan bagian mana yang perlu diperjelas? 🤔",
+        "Sorry for the confusion! Let me break it down into simpler steps. What specifically would you like me to explain? 💡",
+        "Terima kasih feedbacknya! Bisa tanya lebih spesifik tentang aspek mana yang membingungkan? 📝",
+        "I apologize for not being clear enough. Could you tell me which part needs more explanation? 🔍",
+        "Baik, saya akan coba jelaskan dengan lebih detail. Tolong sebutkan poin mana yang perlu diperjelas ya 📚",
+        "Thanks for letting me know! I'll provide a more detailed explanation. What specific information do you need? ✨",
+        "Maaf ya kalau responsenya terlalu umum. Bisa kasih tau konteks yang lebih spesifik? 🎯",
+        "No problem! Let me give you a step-by-step explanation. What particular aspect confuses you? 👥",
+        "Saya akan bantu sampai clear! Coba tanya ulang dengan lebih spesifik tentang apa yang ingin diketahui 💪",
+        "Appreciate your patience! Could you rephrase your question so I can give a better answer? 🤝",
+        "Sure! Maaf kalau penjelasannya kurang jelas! Bisa sebutkan bagian mana yang perlu diperjelas? 🤔",
+        "Tentu! Maaf kalau penjelasannya kurang jelas! Bisa sebutkan bagian mana yang perlu diperjelas? 🤔",
+        "Sure! Sorry for the confusion! Let me break it down into simpler steps. What specifically would you like me to explain? 💡",
+        "Tentu! Sorry for the confusion! Let me break it down into simpler steps. What specifically would you like me to explain? 💡",
+        "Sure! Terima kasih feedbacknya! Bisa tanya lebih spesifik tentang aspek mana yang membingungkan? 📝",
+        "Tentu! Terima kasih feedbacknya! Bisa tanya lebih spesifik tentang aspek mana yang membingungkan? 📝"
+      ]
+    }
+  ]
+}

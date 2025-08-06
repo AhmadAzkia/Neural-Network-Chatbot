@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "student_services",
+      "patterns": [
+        "Layanan kemahasiswaan apa aja yang ada?",
+        "Dimana tempat bikin KTM yang hilang?",
+        "Cara daftar asrama kampus gimana ya?",
+        "Layanan konseling untuk mahasiswa ada gak?",
+        "Fasilitas olahraga di kampus apa aja?",
+        "Cara pindah kelas atau program studi gimana?",
+        "Layanan kesehatan kampus buka jam berapa?",
+        "Dimana bisa komplain pelayanan akademik?",
+        "Cara daftar kegiatan ekstrakurikuler dimana?",
+        "Layanan perpustakaan kampus fasilitasnya apa?"
+      ],
+      "responses": [
+        "Layanan kemahasiswaan: KTM, asrama, konseling, kesehatan, olahraga, beasiswa, organisasi mahasiswa 🏫",
+        "KTM hilang: Bagian akademik → isi form kehilangan → bayar biaya penggantian 50rb → foto → tunggu 3 hari",
+        "Daftar asrama: Online registration → upload dokumen → bayar booking fee → interview → pengumuman 🏠",
+        "Konseling tersedia: Academic counseling, personal counseling, career guidance. Gratis dan confidential",
+        "Fasilitas olahraga: Gym, lapangan basket/futsal, tennis, badminton, swimming pool, track & field 🏃‍♂️",
+        "Pindah kelas/prodi: Syarat IPK, surat permohonan, approval dari kedua prodi, bayar administrasi",
+        "Layanan kesehatan: Poliklinik kampus (08.00-16.00), emergency 24/7, dokter umum, apoteker 🏥",
+        "Komplain layanan: Student complaint center, kotak saran, online feedback, atau langsung ke pimpinan",
+        "Ekstrakurikuler: Daftar via portal kemahasiswaan → pilih organisasi → ikuti recruitment process 🎭",
+        "Perpustakaan: Koleksi 100k+ buku, e-journal, ruang baca, diskusi, komputer, WiFi, AC, buka 07.00-21.00 📚",
+        "Sure! Layanan kemahasiswaan: KTM, asrama, konseling, kesehatan, olahraga, beasiswa, organisasi mahasiswa 🏫",
+        "Tentu! Layanan kemahasiswaan: KTM, asrama, konseling, kesehatan, olahraga, beasiswa, organisasi mahasiswa 🏫",
+        "Sure! KTM hilang: Bagian akademik → isi form kehilangan → bayar biaya penggantian 50rb → foto → tunggu 3 hari",
+        "Tentu! KTM hilang: Bagian akademik → isi form kehilangan → bayar biaya penggantian 50rb → foto → tunggu 3 hari",
+        "Sure! Daftar asrama: Online registration → upload dokumen → bayar booking fee → interview → pengumuman 🏠",
+        "Tentu! Daftar asrama: Online registration → upload dokumen → bayar booking fee → interview → pengumuman 🏠"
+      ]
+    },
+    {
+      "tag": "campus_facilities",
+      "patterns": [
+        "Fasilitas apa aja yang tersedia di kampus?",
+        "WiFi kampus passwordnya apa ya?",
+        "Kantin kampus buka sampai jam berapa?",
+        "Parkir motor di kampus bayar gak sih?",
+        "Ruang diskusi untuk mahasiswa ada dimana?",
+        "Lab komputer bisa dipake kapan aja?",
+        "Mushola kampus di gedung mana ya?",
+        "ATM yang ada di kampus bank apa aja?",
+        "Fotocopy terdekat dari fakultas dimana?",
+        "Akses gedung kampus pakai kartu apa?",
+        "kampus",
+        "campus",
+        "fasilitas",
+        "facility",
+        "layanan",
+        "service",
+        "wifi",
+        "parkir",
+        "kantin",
+        "library",
+        "perpustakaan"
+      ],
+      "responses": [
+        "Fasilitas kampus: WiFi, kantin, parkir, lab, perpustakaan, mushola, ATM, ruang diskusi, auditorium 🏛️",
+        "WiFi kampus: SSID 'CampusNet' → login dengan NIM dan password portal akademik → unlimited quota",
+        "Kantin kampus: Buka 06.00-20.00, ada kantin 24 jam di gedung asrama untuk mahasiswa tinggal di kampus",
+        "Parkir motor: Gratis untuk mahasiswa dengan sticker kampus. Daftar sticker di bagian keamanan 🏍️",
+        "Ruang diskusi: Setiap gedung ada, booking via portal atau langsung ke PIC lantai. Gratis untuk mahasiswa",
+        "Lab komputer: Buka 08.00-17.00 (weekdays), 08.00-15.00 (weekend). Need reservation untuk group project",
+        "Mushola: Ada di setiap gedung fakultas + masjid pusat kampus. Fasilitas wudhu, sajadah, Al-Quran 🕌",
+        "ATM kampus: BRI, BCA, Mandiri (gedung utama), BNI (fakultas teknik), BSI (dekat masjid kampus)",
+        "Fotocopy: Setiap gedung ada, harga 100-150/lembar. Yang termurah di gedung mahasiswa (75/lembar) 📄",
+        "Akses gedung: KTM untuk gedung utama, beberapa gedung fakultas butuh tap card khusus dari bagian akademik",
+        "Sure! Fasilitas kampus: WiFi, kantin, parkir, lab, perpustakaan, mushola, ATM, ruang diskusi, auditorium 🏛️",
+        "Tentu! Fasilitas kampus: WiFi, kantin, parkir, lab, perpustakaan, mushola, ATM, ruang diskusi, auditorium 🏛️",
+        "Sure! WiFi kampus: SSID 'CampusNet' → login dengan NIM dan password portal akademik → unlimited quota",
+        "Tentu! WiFi kampus: SSID 'CampusNet' → login dengan NIM dan password portal akademik → unlimited quota",
+        "Sure! Kantin kampus: Buka 06.00-20.00, ada kantin 24 jam di gedung asrama untuk mahasiswa tinggal di kampus",
+        "Tentu! Kantin kampus: Buka 06.00-20.00, ada kantin 24 jam di gedung asrama untuk mahasiswa tinggal di kampus"
+      ]
+    },
+    {
+      "tag": "emergency_contacts",
+      "patterns": [
+        "Nomor darurat kampus berapa ya?",
+        "Kalau ada emergency di kampus hubungi siapa?",
+        "Kontak security kampus berapa?",
+        "Ambulans kampus ada nomor khusus gak?",
+        "Kalau kehilangan barang di kampus lapor kemana?",
+        "Nomor hotline kemahasiswaan berapa?",
+        "Emergency contact untuk mahasiswa internasional?",
+        "Kalau ada masalah academic hubungi siapa?",
+        "Contact person untuk komplain fasilitas?",
+        "Nomor darurat untuk mahasiswa asrama?"
+      ],
+      "responses": [
+        "Emergency kampus: 0271-123456 (24/7), security: 0271-123457, ambulans: 0271-123458 🚨",
+        "Emergency di kampus: Security (ext. 911), medical emergency (ext. 119), fire emergency (ext. 113)",
+        "Security kampus: 0271-123457 atau tekan tombol emergency di setiap gedung (red button) 👮‍♂️",
+        "Ambulans kampus: 0271-123458, standby 24/7, gratis untuk civitas akademika, rujukan ke RS terdekat 🚑",
+        "Kehilangan barang: Security center → isi form → cek CCTV → koordinasi dengan cleaning service",
+        "Hotline kemahasiswaan: 0271-123459 (jam kerja), WhatsApp: 0812-3456-7890 untuk quick response 📞",
+        "International students: English helpline 0271-123460, international office, 24/7 assistance available",
+        "Academic problems: Academic advisor, koordinator prodi, dekan fakultas, atau ombudsman kampus",
+        "Komplain fasilitas: Facility management 0271-123461, online complaint portal, atau langsung ke rector office",
+        "Darurat asrama: Security asrama 0271-123462, supervisor asrama, atau emergency button di setiap lantai 🏠",
+        "Sure! Emergency kampus: 0271-123456 (24/7), security: 0271-123457, ambulans: 0271-123458 🚨",
+        "Tentu! Emergency kampus: 0271-123456 (24/7), security: 0271-123457, ambulans: 0271-123458 🚨",
+        "Sure! Emergency di kampus: Security (ext. 911), medical emergency (ext. 119), fire emergency (ext. 113)",
+        "Tentu! Emergency di kampus: Security (ext. 911), medical emergency (ext. 119), fire emergency (ext. 113)",
+        "Sure! Security kampus: 0271-123457 atau tekan tombol emergency di setiap gedung (red button) 👮‍♂️",
+        "Tentu! Security kampus: 0271-123457 atau tekan tombol emergency di setiap gedung (red button) 👮‍♂️"
+      ]
+    }
+  ]
+}

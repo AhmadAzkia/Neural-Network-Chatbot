@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "grades_check",
+      "patterns": [
+        "Gimana cara cek nilai mata kuliah saya?",
+        "Dimana bisa lihat hasil ujian dan tugas?",
+        "Kapan nilai keluar di sistem akademik?",
+        "Cara akses transkrip nilai semester ini?",
+        "Nilai UTS dan UAS dimana ya ceknya?",
+        "Bisa bantu cari nilai mata kuliah tertentu?",
+        "Sistem grading kampus ini gimana sih?",
+        "Cara komplain nilai yang salah input?",
+        "IPK semester ini berapa ya kira-kira?",
+        "Deadlinerevisi nilai sampai kapan?",
+        "nilai",
+        "grade",
+        "ipk",
+        "gpa",
+        "transkrip",
+        "transcript",
+        "cek nilai",
+        "lihat nilai",
+        "hasil ujian",
+        "score"
+      ],
+      "responses": [
+        "Cek nilai mata kuliah via: Login SIAKAD → menu 'Nilai' → pilih semester → lihat detail per mata kuliah 📊",
+        "Hasil ujian dan tugas biasanya update dalam 1-2 minggu setelah test. Cek portal akademik secara berkala",
+        "Nilai final biasanya keluar maksimal 2 minggu setelah UAS. Ada notifikasi email saat nilai sudah diinput",
+        "Transkrip nilai: Portal mahasiswa → 'Academic Record' → pilih semester → download/print transkrip 📋",
+        "Nilai UTS/UAS bisa dicek per mata kuliah di portal. Ada breakdown: tugas, UTS, UAS, dan nilai akhir",
+        "Untuk cari nilai spesifik: Login akademik → filter by mata kuliah → lihat history nilai semua semester",
+        "Sistem grading: A (85-100), B+ (80-84), B (75-79), C+ (70-74), C (65-69), D (55-64), E (<55)",
+        "Komplain nilai: Hubungi dosen pengampu dalam 7 hari → isi form revisi → koordinator prodi → akademik",
+        "IPK bisa dilihat real-time di dashboard akademik. Update otomatis setiap ada input nilai baru 📈",
+        "Deadline revisi nilai biasanya 2 minggu setelah nilai final keluar. Lewat deadline butuh surat khusus ⏰",
+        "Sure! Cek nilai mata kuliah via: Login SIAKAD → menu 'Nilai' → pilih semester → lihat detail per mata kuliah 📊",
+        "Tentu! Cek nilai mata kuliah via: Login SIAKAD → menu 'Nilai' → pilih semester → lihat detail per mata kuliah 📊",
+        "Sure! Hasil ujian dan tugas biasanya update dalam 1-2 minggu setelah test. Cek portal akademik secara berkala",
+        "Tentu! Hasil ujian dan tugas biasanya update dalam 1-2 minggu setelah test. Cek portal akademik secara berkala",
+        "Sure! Nilai final biasanya keluar maksimal 2 minggu setelah UAS. Ada notifikasi email saat nilai sudah diinput",
+        "Tentu! Nilai final biasanya keluar maksimal 2 minggu setelah UAS. Ada notifikasi email saat nilai sudah diinput"
+      ]
+    },
+    {
+      "tag": "academic_transcript",
+      "patterns": [
+        "Cara cetak transkrip nilai gimana?",
+        "Persyaratan untuk minta transkrip resmi apa?",
+        "Berapa lama proses pembuatan transkrip?",
+        "Biaya cetak transkrip nilai berapa ya?",
+        "Transkrip sementara bisa dikeluarkan gak?",
+        "Dimana tempat ambil transkrip yang sudah jadi?",
+        "Transkrip untuk apply beasiswa formatnya gimana?",
+        "Cara legalisir transkrip nilai dimana?",
+        "Transkrip bahasa Inggris bisa dibuat gak?",
+        "Syarat ambil transkrip untuk wisuda apa?"
+      ],
+      "responses": [
+        "Cetak transkrip: Datang ke bagian akademik → isi form → bayar biaya → tunggu 3-5 hari kerja 🖨️",
+        "Syarat transkrip resmi: KTM asli, KTP, surat permohonan, bukti bayar SPP lunas, meterai 10rb",
+        "Proses pembuatan transkrip resmi: 3-5 hari kerja (normal), 1-2 hari (express dengan biaya tambahan)",
+        "Biaya transkrip: Rp 50.000 (reguler), Rp 100.000 (express), Rp 75.000 (bilingual Indonesia-Inggris)",
+        "Transkrip sementara tersedia untuk mahasiswa semester akhir yang belum lulus semua mata kuliah 📄",
+        "Ambil transkrip di: Bagian akademik fakultas (jam 08.00-15.00) atau bisa via pos dengan biaya tambahan",
+        "Transkrip beasiswa: Format khusus dengan konversi skala 4.0, include ranking, certified copy available",
+        "Legalisir transkrip: Bagian akademik → TTD koordinator → cap fakultas → bisa multiple copy sekaligus",
+        "Transkrip bilingual tersedia dalam bahasa Indonesia dan Inggris untuk keperluan international 🌍",
+        "Transkrip wisuda: Otomatis diproses setelah dinyatakan lulus. Diambil saat acara wisuda atau setelahnya",
+        "Sure! Cetak transkrip: Datang ke bagian akademik → isi form → bayar biaya → tunggu 3-5 hari kerja 🖨️",
+        "Tentu! Cetak transkrip: Datang ke bagian akademik → isi form → bayar biaya → tunggu 3-5 hari kerja 🖨️",
+        "Sure! Syarat transkrip resmi: KTM asli, KTP, surat permohonan, bukti bayar SPP lunas, meterai 10rb",
+        "Tentu! Syarat transkrip resmi: KTM asli, KTP, surat permohonan, bukti bayar SPP lunas, meterai 10rb",
+        "Sure! Proses pembuatan transkrip resmi: 3-5 hari kerja (normal), 1-2 hari (express dengan biaya tambahan)",
+        "Tentu! Proses pembuatan transkrip resmi: 3-5 hari kerja (normal), 1-2 hari (express dengan biaya tambahan)"
+      ]
+    },
+    {
+      "tag": "gpa_calculation",
+      "patterns": [
+        "Cara hitung IPK semester dan kumulatif gimana?",
+        "Rumus perhitungan GPA di kampus ini apa?",
+        "Kenapa IPK saya turun padahal nilai bagus?",
+        "Minimal IPK untuk tidak DO berapa ya?",
+        "Cara ningkatkan IPK yang udah terlanjur jelek?",
+        "IPK berpengaruh ke apa aja selama kuliah?",
+        "Perbedaan IPS dan IPK itu apa sih?",
+        "Target IPK untuk cumlaude berapa?",
+        "Nilai D pengaruhnya ke IPK seberapa besar?",
+        "Sistem kredit dan bobot nilai gimana ya?"
+      ],
+      "responses": [
+        "Rumus IPK: (Σ(Nilai × SKS)) / Total SKS. A=4, B+=3.5, B=3, C+=2.5, C=2, D=1, E=0 🧮",
+        "GPA calculation: Grade point per mata kuliah dikalikan SKS, total dibagi jumlah SKS yang diambil",
+        "IPK turun karena: 1) Ambil banyak SKS dengan nilai rendah 2) Mata kuliah berSKS tinggi dapat nilai jelek",
+        "Minimal IPK untuk avoid DO: ≥2.0 (semester 1-2), ≥2.25 (semester 3-4), ≥2.5 (semester 5+) ⚠️",
+        "Tingkatkan IPK: Fokus mata kuliah berSKS tinggi, retake nilai D/E, ambil mata kuliah mudah jika perlu",
+        "IPK berpengaruh ke: Beasiswa, organisasi, magang, job application, study abroad, research opportunity 🎯",
+        "IPS = IP Semester (1 semester), IPK = IP Kumulatif (keseluruhan). IPK lebih penting untuk evaluasi",
+        "Target IPK cumlaude: ≥3.51 (dengan pujian), ≥3.26 (sangat memuaskan), tanpa nilai D/E, lulus tepat waktu",
+        "Nilai D sangat merugikan IPK karena hanya dapat poin 1. Prioritas retake mata kuliah bernilai D/E",
+        "Sistem kredit: 1 SKS = 1 jam kuliah + 2 jam belajar mandiri per minggu. Bobot nilai mempengaruhi GPA 📚",
+        "Sure! Rumus IPK: (Σ(Nilai × SKS)) / Total SKS. A=4, B+=3.5, B=3, C+=2.5, C=2, D=1, E=0 🧮",
+        "Tentu! Rumus IPK: (Σ(Nilai × SKS)) / Total SKS. A=4, B+=3.5, B=3, C+=2.5, C=2, D=1, E=0 🧮",
+        "Sure! GPA calculation: Grade point per mata kuliah dikalikan SKS, total dibagi jumlah SKS yang diambil",
+        "Tentu! GPA calculation: Grade point per mata kuliah dikalikan SKS, total dibagi jumlah SKS yang diambil",
+        "Sure! IPK turun karena: 1) Ambil banyak SKS dengan nilai rendah 2) Mata kuliah berSKS tinggi dapat nilai jelek",
+        "Tentu! IPK turun karena: 1) Ambil banyak SKS dengan nilai rendah 2) Mata kuliah berSKS tinggi dapat nilai jelek"
+      ]
+    }
+  ]
+}

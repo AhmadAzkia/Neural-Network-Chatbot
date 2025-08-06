@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "tuition_payment",
+      "patterns": [
+        "Cara bayar SPP semester ini gimana ya?",
+        "Dimana bisa cek tagihan kuliah saya?",
+        "Deadline pembayaran SPP kapan nih?",
+        "Bisa cicil pembayaran kuliah gak sih?",
+        "SPP telat bayar dendanya berapa ya?",
+        "Bank mana aja yang bisa untuk bayar SPP?",
+        "Cara dapat keringanan biaya kuliah gimana?",
+        "Beasiswa yang bisa cover SPP apa aja?",
+        "Virtual account untuk bayar kuliah dimana?",
+        "Bukti pembayaran SPP hilang, gimana dong?",
+        "bayar",
+        "payment",
+        "spp",
+        "tuition",
+        "biaya",
+        "fee",
+        "beasiswa",
+        "scholarship",
+        "cicilan",
+        "installment"
+      ],
+      "responses": [
+        "Bayar SPP via: Internet banking → Virtual Account kampus → masukkan nominal → simpan bukti transfer 💳",
+        "Cek tagihan kuliah: Login portal keuangan → menu 'Tagihan' → lihat detail per semester dan status bayar",
+        "Deadline SPP biasanya tanggal 20 setiap bulan. Late payment ada denda 2-5% per bulan keterlambatan ⏰",
+        "Cicilan SPP tersedia untuk mahasiswa tertentu. Ajukan ke bagian keuangan dengan syarat dan survei keluarga",
+        "Denda telat bayar: 2% bulan pertama, 3% bulan kedua, 5% bulan ketiga. Lebih dari itu bisa di-DO ⚠️",
+        "Bank partner: BRI, BNI, Mandiri, BCA, BSI. Bisa via ATM, mobile banking, atau teller bank",
+        "Keringanan biaya: Ajukan surat ke bagian kemahasiswaan → lampirkan dokumen ekonomi → wait approval",
+        "Beasiswa cover SPP: KIP Kuliah, PPA, BBM, beasiswa prestasi, beasiswa daerah, corporate scholarship 🎓",
+        "Virtual Account ada di tagihan SPP atau portal keuangan. Unique per mahasiswa, bisa bayar kapan saja",
+        "Bukti bayar hilang: Download ulang di portal keuangan → menu 'History Pembayaran' → print bukti bayar 📄",
+        "Sure! Bayar SPP via: Internet banking → Virtual Account kampus → masukkan nominal → simpan bukti transfer 💳",
+        "Tentu! Bayar SPP via: Internet banking → Virtual Account kampus → masukkan nominal → simpan bukti transfer 💳",
+        "Sure! Cek tagihan kuliah: Login portal keuangan → menu 'Tagihan' → lihat detail per semester dan status bayar",
+        "Tentu! Cek tagihan kuliah: Login portal keuangan → menu 'Tagihan' → lihat detail per semester dan status bayar",
+        "Sure! Deadline SPP biasanya tanggal 20 setiap bulan. Late payment ada denda 2-5% per bulan keterlambatan ⏰",
+        "Tentu! Deadline SPP biasanya tanggal 20 setiap bulan. Late payment ada denda 2-5% per bulan keterlambatan ⏰"
+      ]
+    },
+    {
+      "tag": "scholarship_info",
+      "patterns": [
+        "Beasiswa apa aja yang tersedia di kampus?",
+        "Syarat daftar beasiswa prestasi apa ya?",
+        "Kapan periode pendaftaran beasiswa dibuka?",
+        "Cara apply beasiswa untuk mahasiswa kurang mampu?",
+        "Beasiswa luar negeri ada program apa aja?",
+        "Dokumen yang dibutuhkan untuk beasiswa apa?",
+        "Beasiswa yang cover living cost ada gak?",
+        "Minimal IPK untuk daftar beasiswa berapa?",
+        "Proses seleksi beasiswa biasanya gimana?",
+        "Beasiswa bisa dicabut dalam kondisi apa?"
+      ],
+      "responses": [
+        "Beasiswa available: KIP Kuliah, PPA, BBM, prestasi akademik, prestasi non-akademik, beasiswa daerah 💰",
+        "Syarat beasiswa prestasi: IPK ≥3.25, tidak ada nilai D/E, aktif organisasi, surat rekomendasi dosen",
+        "Periode beasiswa: KIP (Maret-Oktober), PPA (Februari-April), prestasi (setiap semester), corporate (vary)",
+        "Beasiswa kurang mampu: Siapkan SKTM, slip gaji ortu, rekening listrik, surat RT/RW, dokumen keluarga 📋",
+        "Beasiswa luar negeri: LPDP, Fulbright, Chevening, DAAD, Australia Awards, Erasmus+, ADB scholarship",
+        "Dokumen beasiswa: Transkrip, SKTM, CV, essay, surat rekomendasi, sertifikat prestasi, foto formal",
+        "Living cost coverage: LPDP, Fulbright (full), beasiswa prestasi tertentu (partial), corporate scholarship",
+        "Minimal IPK: Prestasi (3.25), PPA (3.0), KIP (2.75), luar negeri (3.5), corporate scholarship (3.0+) 📊",
+        "Proses seleksi: Administrasi → test tertulis → wawancara → pengumuman (2-4 minggu process)",
+        "Beasiswa dicabut jika: IPK turun drastis, melanggar tata tertib, tidak aktif, falsifikasi dokumen ⚠️",
+        "Sure! Beasiswa available: KIP Kuliah, PPA, BBM, prestasi akademik, prestasi non-akademik, beasiswa daerah 💰",
+        "Tentu! Beasiswa available: KIP Kuliah, PPA, BBM, prestasi akademik, prestasi non-akademik, beasiswa daerah 💰",
+        "Sure! Syarat beasiswa prestasi: IPK ≥3.25, tidak ada nilai D/E, aktif organisasi, surat rekomendasi dosen",
+        "Tentu! Syarat beasiswa prestasi: IPK ≥3.25, tidak ada nilai D/E, aktif organisasi, surat rekomendasi dosen",
+        "Sure! Periode beasiswa: KIP (Maret-Oktober), PPA (Februari-April), prestasi (setiap semester), corporate (vary)",
+        "Tentu! Periode beasiswa: KIP (Maret-Oktober), PPA (Februari-April), prestasi (setiap semester), corporate (vary)"
+      ]
+    },
+    {
+      "tag": "financial_assistance",
+      "patterns": [
+        "Ada program bantuan keuangan untuk mahasiswa gak?",
+        "Gimana cara dapat keringanan biaya kuliah?",
+        "Bantuan darurat untuk mahasiswa tersedia gak?",
+        "Beasiswa untuk anak yatim piatu ada gak ya?",
+        "Program cicilan SPP syaratnya apa aja?",
+        "Bantuan biaya hidup untuk mahasiswa perantauan?",
+        "Pinjaman pendidikan dari kampus ada gak?",
+        "Kerja part time di kampus bayarannya gimana?",
+        "Dana talangan untuk mahasiswa ada program gak?",
+        "Bantuan untuk mahasiswa berprestasi dari keluarga kurang mampu?"
+      ],
+      "responses": [
+        "Bantuan keuangan: Beasiswa KIP, dana darurat kampus, program cicilan, kerja part-time di kampus 🏦",
+        "Keringanan biaya: Ajukan ke kemahasiswaan → survey ekonomi → keputusan dalam 2-4 minggu",
+        "Bantuan darurat tersedia untuk kasus: Bencana alam, kematian ortu, sakit kritis, kondisi force majeure",
+        "Beasiswa yatim piatu: Program khusus dari yayasan kampus, Baznas, Dompet Dhuafa, corporate CSR 🤲",
+        "Cicilan SPP: Penghasilan ortu <5 juta, survey rumah, jaminan, cicilan maksimal 6 bulan per semester",
+        "Bantuan living cost: Asrama kampus, program makan gratis, transportasi subsidized, part-time job",
+        "Pinjaman pendidikan: Kerjasama dengan bank partner, bunga rendah, bayar setelah lulus (income contingent)",
+        "Part-time kampus: Lab assistant (15rb/jam), tutor (20rb/jam), admin (3jt/bulan), research assistant",
+        "Dana talangan: Emergency fund untuk situasi mendesak, maksimal 2 juta, bayar dalam 3 bulan 💳",
+        "Prestasi + kurang mampu: Program khusus dengan full scholarship + living allowance + research grant 🌟",
+        "Sure! Bantuan keuangan: Beasiswa KIP, dana darurat kampus, program cicilan, kerja part-time di kampus 🏦",
+        "Tentu! Bantuan keuangan: Beasiswa KIP, dana darurat kampus, program cicilan, kerja part-time di kampus 🏦",
+        "Sure! Keringanan biaya: Ajukan ke kemahasiswaan → survey ekonomi → keputusan dalam 2-4 minggu",
+        "Tentu! Keringanan biaya: Ajukan ke kemahasiswaan → survey ekonomi → keputusan dalam 2-4 minggu",
+        "Sure! Bantuan darurat tersedia untuk kasus: Bencana alam, kematian ortu, sakit kritis, kondisi force majeure",
+        "Tentu! Bantuan darurat tersedia untuk kasus: Bencana alam, kematian ortu, sakit kritis, kondisi force majeure"
+      ]
+    }
+  ]
+}

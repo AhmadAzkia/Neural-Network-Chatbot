@@ -1,0 +1,164 @@
+{
+  "intents": [
+    {
+      "tag": "greeting_morning",
+      "patterns": [
+        "Selamat pagi bot",
+        "Pagi chatbot, ada yang bisa dibantu?",
+        "Good morning, saya butuh informasi",
+        "Pagi, mau tanya seputar kuliah",
+        "Selamat pagi, ada pertanyaan nih",
+        "Morning! Bisa bantu saya gak?",
+        "Pagi-pagi udah butuh bantuan nih",
+        "Selamat pagi, saya mahasiswa baru",
+        "Good morning, need some help please",
+        "Pagi bot, mau konsultasi dong",
+        "pagi",
+        "morning",
+        "selamat pagi",
+        "pagi bot",
+        "good morning"
+      ],
+      "responses": [
+        "Selamat pagi! Semoga hari ini penuh berkah. Ada yang bisa saya bantu seputar akademik?",
+        "Pagi yang cerah! Siap membantu kebutuhan informasi kuliah Anda 😊",
+        "Good morning! Semangat mengawali hari dengan mencari informasi akademik ya!",
+        "Selamat pagi! Saya siap jadi partner akademik Anda hari ini 🌅",
+        "Pagi yang produktif! Mari kita cari solusi untuk kebutuhan kuliah Anda",
+        "Morning! Energi pagi yang bagus untuk mencari informasi akademik nih",
+        "Selamat pagi! Saya di sini untuk membantu journey akademik Anda 📚",
+        "Pagi yang indah untuk belajar! Ada pertanyaan seputar kampus?",
+        "Good morning! Let's make your academic day easier with the right information",
+        "Selamat pagi mahasiswa! Ready to assist dengan semua kebutuhan kuliah Anda ☀️"
+      ]
+    },
+    {
+      "tag": "greeting_general",
+      "patterns": [
+        "Halo bot, bisa bantu saya?",
+        "Hi chatbot, butuh informasi nih",
+        "Hey, saya mahasiswa baru butuh bantuan",
+        "Hello, ada yang bisa dibantu gak?",
+        "Hai, mau tanya seputar kuliah",
+        "halo",
+        "hai",
+        "hi",
+        "hello",
+        "hey",
+        "halo bot",
+        "hai bot",
+        "hi bot",
+        "hello bot",
+        "hey bot"
+      ],
+      "responses": [
+        "Halo! Tentu saja, saya siap membantu dengan segala informasi akademik yang Anda butuhkan 😊",
+        "Hi! Dengan senang hati saya akan bantu Anda navigate sistem akademik kampus",
+        "Hey! Saya di sini untuk membuat hidup kuliah Anda lebih mudah dan terarah",
+        "Hello! Sebagai assistant akademik, saya siap memberikan informasi yang akurat",
+        "Hai! Mari kita selesaikan kebutuhan informasi akademik Anda step by step",
+        "Halo! Saya akan jadi guide Anda dalam mencari informasi seputar kampus",
+        "Hi there! Ready to help you succeed in your academic journey 🎓",
+        "Hey! Dari jadwal sampai nilai, saya siap bantu semua kebutuhan akademik Anda",
+        "Hello! Don't worry, saya akan bantu Anda mendapatkan informasi yang tepat",
+        "Hai! Welcome to academic assistant yang siap support perkuliahan Anda 24/7"
+      ]
+    },
+    {
+      "tag": "greeting_islamic",
+      "patterns": [
+        "Assalamualaikum bot, bisa bantu?",
+        "Assalamualaikum wr wb, butuh informasi",
+        "Assalamu'alaikum chatbot, mau tanya",
+        "Salam, ada yang bisa dibantu?",
+        "Assalamualaikum, saya mahasiswa butuh bantuan",
+        "assalamualaikum",
+        "assalamu'alaikum",
+        "salam",
+        "assalamualaikum bot",
+        "salam bot",
+        "assalamualaikum wr wb",
+        "assalamu'alaikum wr wb",
+        "wa'alaikumussalam",
+        "waalaikumsalam",
+        "salam alaikum"
+      ],
+      "responses": [
+        "Wa'alaikumussalam wa rahmatullahi wa barakatuh! Barakallahu fiik, ada yang bisa saya bantu seputar akademik?",
+        "Wa'alaikumussalam wr wb! Semoga Allah mudahkan urusan kuliah Anda. Silakan tanya apa saja 😊",
+        "Wa'alaikumussalam! Bismillah, mari kita cari solusi untuk kebutuhan akademik Anda",
+        "Wa'alaikumussalam wa rahmatullahi wa barakatuh! Siap membantu dengan informasi kampus",
+        "Salam wa rahmatullahi wa barakatuh! Semoga berkah dalam menuntut ilmu. Ada yang bisa dibantu?",
+        "Wa'alaikumussalam! May Allah ease your academic journey. Saya siap membantu 🤲",
+        "Wa'alaikumussalam wr wb! Barakallahu fiik for reaching out. Mari kita solve masalah akademik Anda",
+        "Salam wa rahmatullahi wa barakatuh! Seeking knowledge is blessed. Silakan tanya apapun",
+        "Wa'alaikumussalam! InsyaAllah saya bisa bantu dengan informasi yang Anda butuhkan",
+        "Wa'alaikumussalam wa rahmatullahi wa barakatuh! Academic success with barakah, mari kita mulai 📚"
+      ]
+    },
+    {
+      "tag": "greeting_casual",
+      "patterns": [
+        "yo bot",
+        "sup chatbot",
+        "what's up",
+        "gimana bot",
+        "apa kabar",
+        "how are you",
+        "yo",
+        "sup",
+        "waddup",
+        "hey what's up",
+        "gimana kabar bot",
+        "apa kabar chatbot",
+        "how's it going",
+        "what's good",
+        "bot gimana nih"
+      ],
+      "responses": [
+        "Yo! I'm doing great and ready to help dengan info akademik apapun! 🤙",
+        "What's up! Siap bantu semua kebutuhan kuliah Anda nih 😎",
+        "Hey! Kabar baik, semangat bantu mahasiswa seperti Anda! 🔥",
+        "Sup! All good here, ready to make your academic life easier 💪",
+        "Yo yo! Kabar baik, energy penuh untuk bantu academic journey Anda!",
+        "What's good! Siap jadi academic companion yang helpful banget 🚀",
+        "Hey! I'm awesome and excited to help dengan semua pertanyaan kampus!",
+        "Sup! Doing fantastic, ready to assist your university needs 24/7 ⚡",
+        "Yo! Kabar mantap, let's tackle your academic questions together! 🎯",
+        "What's up! Great vibes, siap bantu navigasi sistem akademik kampus 🌟"
+      ]
+    },
+    {
+      "tag": "greeting_help_request",
+      "patterns": [
+        "butuh bantuan nih",
+        "bisa bantu gak",
+        "need help please",
+        "tolong dong",
+        "bantuin dong",
+        "help me",
+        "bisa dibantu",
+        "mau minta bantuan",
+        "butuh info nih",
+        "need assistance",
+        "bisa kasih bantuan",
+        "help dong",
+        "bantu saya",
+        "I need help",
+        "tolong bantu"
+      ],
+      "responses": [
+        "Tentu saja! Saya di sini untuk membantu. Apa yang bisa saya bantu seputar akademik? 🤝",
+        "Of course! Ready to assist you. What academic information do you need? 💡",
+        "Pasti bisa dibantu! Silakan tanya apa saja seputar kampus dan kuliah 📚",
+        "Absolutely! I'm here to help. What university-related question do you have? ✨",
+        "Dengan senang hati! Mari kita selesaikan kebutuhan akademik Anda together 🎯",
+        "Sure thing! Saya siap membantu dengan informasi apapun yang Anda butuhkan 🚀",
+        "Definitely! That's exactly what I'm here for. How can I assist you today? 🌟",
+        "Tentu! Saya akan bantu sampai masalah akademik Anda terselesaikan 💪",
+        "Of course I can help! What specific academic topic would you like to discuss? 📖",
+        "Pasti! Let's solve your academic needs step by step. What's your question? 🔍"
+      ]
+    }
+  ]
+}

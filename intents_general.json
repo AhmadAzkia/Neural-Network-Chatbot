@@ -1,0 +1,164 @@
+{
+  "intents": [
+    {
+      "tag": "quick_answers",
+      "patterns": [
+        "apa",
+        "gimana", 
+        "cara",
+        "dimana",
+        "kapan",
+        "berapa",
+        "siapa",
+        "kenapa",
+        "what",
+        "how", 
+        "where",
+        "when",
+        "who",
+        "why",
+        "which",
+        "can",
+        "bisa",
+        "mau",
+        "butuh",
+        "perlu"
+      ],
+      "responses": [
+        "Bisa lebih spesifik pertanyaannya? Saya siap bantu seputar akademik! 🤔",
+        "Could you be more specific? I'm here to help with academic questions! 💡",
+        "Pertanyaan yang menarik! Bisa diperjelas tentang aspek akademik yang mana? 📚",
+        "Good question! Which academic topic would you like to know about? ✨",
+        "Mari kita bahas lebih detail! Apa yang ingin Anda ketahui seputar kampus? 🎯"
+      ]
+    },
+    {
+      "tag": "common_phrases",
+      "patterns": [
+        "info",
+        "informasi", 
+        "help",
+        "bantuan",
+        "tolong",
+        "dong",
+        "nih", 
+        "ya",
+        "ok",
+        "oke",
+        "thanks",
+        "makasih",
+        "terima kasih",
+        "thank you",
+        "please",
+        "mohon",
+        "minta",
+        "tanya",
+        "cari"
+      ],
+      "responses": [
+        "Siap membantu! Apa yang bisa saya informasikan seputar akademik? 🤝",
+        "Ready to assist! What academic information do you need? 💪",
+        "Tentu! Mari kita cari solusi untuk kebutuhan akademik Anda 🚀",
+        "Of course! I'm here to provide all the academic info you need ✨",
+        "Dengan senang hati! Silakan tanya apapun seputar kampus dan kuliah 📚"
+      ]
+    },
+    {
+      "tag": "academic_keywords",
+      "patterns": [
+        "kuliah",
+        "kampus", 
+        "academic",
+        "akademik",
+        "mahasiswa",
+        "student",
+        "semester",
+        "sks",
+        "mata kuliah",
+        "course",
+        "kelas",
+        "class",
+        "nilai",
+        "grade",
+        "ipk", 
+        "gpa",
+        "ujian",
+        "exam",
+        "tugas",
+        "assignment"
+      ],
+      "responses": [
+        "Ah, tentang hal akademik! Apa yang ingin Anda ketahui lebih lanjut? 🎓",
+        "Academic topic! What specific information do you need? 📖",
+        "Topik kuliah nih! Bisa diperjelas pertanyaannya? 💡",
+        "University-related question! How can I help you specifically? ✨",
+        "Seputar akademik ya! Mari kita bahas lebih detail 🚀"
+      ]
+    },
+    {
+      "tag": "system_navigation",
+      "patterns": [
+        "jadwal",
+        "schedule",
+        "daftar", 
+        "register",
+        "bayar",
+        "payment",
+        "login",
+        "portal",
+        "sistem",
+        "system",
+        "aplikasi",
+        "app",
+        "website",
+        "online",
+        "digital",
+        "mobile",
+        "komputer",
+        "internet",
+        "wifi",
+        "email"
+      ],
+      "responses": [
+        "Tentang sistem akademik! Aspek mana yang perlu dijelaskan? 💻",
+        "System-related question! What specific feature do you need help with? 🔧",
+        "Seputar platform digital kampus! Apa yang ingin Anda akses? 📱",
+        "Digital services inquiry! How can I guide you through the system? ⚡",
+        "Technical support question! Mari saya bantu navigasi sistemnya 🎯"
+      ]
+    },
+    {
+      "tag": "general_campus",
+      "patterns": [
+        "fakultas",
+        "faculty",
+        "jurusan",
+        "department", 
+        "prodi",
+        "program studi",
+        "major",
+        "gedung",
+        "building",
+        "ruang",
+        "room",
+        "lab",
+        "laboratorium",
+        "perpustakaan",
+        "library",
+        "kantin",
+        "cafeteria",
+        "parkir",
+        "parking",
+        "asrama",
+        "dormitory"
+      ],
+      "responses": [
+        "Tentang fasilitas kampus! Bagian mana yang ingin Anda ketahui? 🏛️",
+        "Campus facilities question! Which area interests you? 🏫",
+        "Seputar lingkungan kampus! Apa yang perlu saya informasikan? 🌟",
+        "University infrastructure! How can I help you navigate? 🗺️",
+        "Campus-related inquiry! Mari saya guide Anda 🚀"
+      ]
+    }
+  ]
+}

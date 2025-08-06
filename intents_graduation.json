@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "graduation_requirements",
+      "patterns": [
+        "Syarat lulus kuliah apa aja sih?",
+        "Minimal SKS untuk wisuda berapa ya?",
+        "IPK minimal untuk lulus berapa?",
+        "Mata kuliah wajib yang harus lulus apa aja?",
+        "Tugas akhir wajib untuk semua jurusan gak?",
+        "Persyaratan wisuda apa aja yang harus dipenuhi?",
+        "Berapa lama maksimal kuliah di sini?",
+        "Syarat cumlaude untuk wisuda apa ya?",
+        "PKL atau magang wajib untuk lulus gak?",
+        "Sertifikat bahasa Inggris wajib untuk wisuda?",
+        "lulus",
+        "graduation",
+        "wisuda",
+        "skripsi",
+        "thesis",
+        "syarat lulus",
+        "requirements",
+        "cumlaude"
+      ],
+      "responses": [
+        "Syarat lulus: Menyelesaikan 144 SKS, IPK ≥2.0, lulus semua mata kuliah wajib, tugas akhir/skripsi 🎓",
+        "Minimal SKS untuk wisuda: 144 SKS total (mata kuliah wajib + pilihan + tugas akhir), semua harus lulus",
+        "IPK minimal lulus: 2.0 untuk semua program studi. Untuk cumlaude minimal 3.51 tanpa nilai D/E",
+        "Mata kuliah wajib: Sesuai kurikulum prodi, biasanya 120-130 SKS. Cek di buku panduan akademik 📚",
+        "Tugas akhir: Wajib untuk semua jurusan (skripsi 6 SKS). Ada opsi non-skripsi untuk prodi tertentu",
+        "Persyaratan wisuda: Lulus semua MK, IPK ≥2.0, tidak ada tunggakan, serahkan hardcopy skripsi",
+        "Maksimal kuliah: 7 tahun untuk S1, 3 tahun untuk D3. Lebih dari itu harus mengulang dari awal ⏰",
+        "Cumlaude: IPK ≥3.51, tidak ada nilai D/E, lulus tepat waktu (4 tahun S1), masa studi maksimal 3.5 tahun",
+        "PKL/Magang: Wajib untuk sebagian besar prodi (2-4 SKS), biasanya semester 6-7, minimal 3 bulan 💼",
+        "Sertifikat bahasa: TOEFL/IELTS minimal score 450/5.5 untuk beberapa prodi. Cek requirement prodi Anda",
+        "Sure! Syarat lulus: Menyelesaikan 144 SKS, IPK ≥2.0, lulus semua mata kuliah wajib, tugas akhir/skripsi 🎓",
+        "Tentu! Syarat lulus: Menyelesaikan 144 SKS, IPK ≥2.0, lulus semua mata kuliah wajib, tugas akhir/skripsi 🎓",
+        "Sure! Minimal SKS untuk wisuda: 144 SKS total (mata kuliah wajib + pilihan + tugas akhir), semua harus lulus",
+        "Tentu! Minimal SKS untuk wisuda: 144 SKS total (mata kuliah wajib + pilihan + tugas akhir), semua harus lulus",
+        "Sure! IPK minimal lulus: 2.0 untuk semua program studi. Untuk cumlaude minimal 3.51 tanpa nilai D/E",
+        "Tentu! IPK minimal lulus: 2.0 untuk semua program studi. Untuk cumlaude minimal 3.51 tanpa nilai D/E"
+      ]
+    },
+    {
+      "tag": "thesis_guidance",
+      "patterns": [
+        "Cara daftar bimbingan skripsi gimana ya?",
+        "Siapa aja dosen yang bisa jadi pembimbing?",
+        "Berapa lama proses pengerjaan skripsi?",
+        "Syarat seminar proposal skripsi apa aja?",
+        "Gimana cara ganti pembimbing skripsi?",
+        "Minimal berapa kali bimbingan sebelum sidang?",
+        "Format penulisan skripsi seperti apa?",
+        "Plagiarisme skripsi toleransinya berapa persen?",
+        "Biaya bimbingan dan sidang skripsi berapa?",
+        "Kalau skripsi ditolak dosen gimana dong?"
+      ],
+      "responses": [
+        "Daftar bimbingan: Pilih topik → konsultasi kaprodi → daftar pembimbing → acc proposal → mulai bimbingan 📝",
+        "Pembimbing skripsi: Dosen tetap dengan minimal pendidikan S2, sesuai bidang expertise, maksimal 8 mahasiswa",
+        "Proses skripsi: 6-12 bulan (normal), tergantung kompleksitas research dan konsistensi bimbingan mahasiswa",
+        "Syarat seminar proposal: IPK ≥2.5, lulus ≥120 SKS, proposal approved pembimbing, daftar ke akademik 💻",
+        "Ganti pembimbing: Surat permohonan → persetujuan kaprodi → alasan yang valid → proses 1-2 minggu",
+        "Minimal bimbingan: 8x tatap muka dengan dokumentasi logbook, bisa lebih sesuai kebutuhan research",
+        "Format skripsi: Sesuai template kampus (margin, font, spacing), biasanya Times New Roman 12pt, 1.5 spasi",
+        "Plagiarisme: Maksimal 20% similarity, tidak boleh copy-paste tanpa sitasi, harus original research 🔍",
+        "Biaya skripsi: Bimbingan gratis, sidang 500rb, cetak dan jilid ~200rb, wisuda 1.5jt (termasuk toga)",
+        "Skripsi ditolak: Revisi sesuai masukan → bimbingan intensif → perbaikan → submit ulang → jangan putus asa! 💪",
+        "Sure! Daftar bimbingan: Pilih topik → konsultasi kaprodi → daftar pembimbing → acc proposal → mulai bimbingan 📝",
+        "Tentu! Daftar bimbingan: Pilih topik → konsultasi kaprodi → daftar pembimbing → acc proposal → mulai bimbingan 📝",
+        "Sure! Pembimbing skripsi: Dosen tetap dengan minimal pendidikan S2, sesuai bidang expertise, maksimal 8 mahasiswa",
+        "Tentu! Pembimbing skripsi: Dosen tetap dengan minimal pendidikan S2, sesuai bidang expertise, maksimal 8 mahasiswa",
+        "Sure! Proses skripsi: 6-12 bulan (normal), tergantung kompleksitas research dan konsistensi bimbingan mahasiswa",
+        "Tentu! Proses skripsi: 6-12 bulan (normal), tergantung kompleksitas research dan konsistensi bimbingan mahasiswa"
+      ]
+    },
+    {
+      "tag": "career_preparation",
+      "patterns": [
+        "Persiapan karir setelah lulus apa aja?",
+        "Career center kampus layanannya apa?",
+        "Job fair di kampus kapan biasanya ada?",
+        "CV dan portfolio yang bagus seperti apa?",
+        "Pelatihan softskill untuk fresh graduate ada?",
+        "Alumni network kampus bisa dimanfaatkan gimana?",
+        "Persiapan interview kerja ada workshop gak?",
+        "Sertifikasi profesi yang berguna apa aja?",
+        "Startup incubator di kampus ada program gak?",
+        "Cara networking dengan industry gimana ya?"
+      ],
+      "responses": [
+        "Persiapan karir: Bangun portfolio, networking, sertifikasi, magang, join career workshop, update LinkedIn 💼",
+        "Career center: Job placement, CV review, interview coaching, career counseling, company matching service",
+        "Job fair: 2x setahun (Maret & September), 100+ companies, on-site interview, workshop, networking session",
+        "CV portfolio: Achievement-based, quantifiable results, relevant experience, clean design, ATS-friendly format 📄",
+        "Pelatihan softskill: Leadership, communication, teamwork, problem solving, digital literacy, entrepreneurship",
+        "Alumni network: LinkedIn alumni group, mentorship program, industry connections, job referrals, business partnership",
+        "Interview workshop: Mock interview, behavioral questions, technical skills, salary negotiation, confidence building",
+        "Sertifikasi berguna: PMP, Google Ads, AWS, Microsoft Office, bahasa asing, industry-specific certification 🏆",
+        "Startup incubator: Ideation workshop, business plan competition, funding access, mentorship, co-working space",
+        "Industry networking: Seminar, company visit, internship, professional association, online community engagement 🤝",
+        "Sure! Persiapan karir: Bangun portfolio, networking, sertifikasi, magang, join career workshop, update LinkedIn 💼",
+        "Tentu! Persiapan karir: Bangun portfolio, networking, sertifikasi, magang, join career workshop, update LinkedIn 💼",
+        "Sure! Career center: Job placement, CV review, interview coaching, career counseling, company matching service",
+        "Tentu! Career center: Job placement, CV review, interview coaching, career counseling, company matching service",
+        "Sure! Job fair: 2x setahun (Maret & September), 100+ companies, on-site interview, workshop, networking session",
+        "Tentu! Job fair: 2x setahun (Maret & September), 100+ companies, on-site interview, workshop, networking session"
+      ]
+    }
+  ]
+}

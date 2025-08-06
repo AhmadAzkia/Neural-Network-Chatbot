@@ -1,0 +1,182 @@
+{
+  "intents": [
+    {
+      "tag": "exam_info",
+      "patterns": [
+        "Kapan jadwal ujian semester ini?",
+        "Dimana tempat ujian UTS dan UAS?",
+        "Gimana cara daftar ujian susulan?",
+        "Persyaratan ikut ujian apa aja?",
+        "Jadwal ujian mata kuliah tertentu dimana?",
+        "ujian",
+        "exam",
+        "uts",
+        "uas",
+        "midterm",
+        "final exam",
+        "ujian tengah semester",
+        "ujian akhir semester",
+        "test",
+        "quiz",
+        "kuis",
+        "ujian susulan",
+        "makeup exam",
+        "retake",
+        "remedial"
+      ],
+      "responses": [
+        "Jadwal ujian bisa dicek di portal akademik → menu 'Jadwal Ujian' → pilih semester aktif 📅",
+        "Tempat ujian biasanya diumumkan H-7 sebelum ujian. Cek pengumuman fakultas atau SIAKAD",
+        "Ujian susulan: Ajukan surat ke bagian akademik → lampirkan bukti sakit/force majeure → tunggu approval",
+        "Syarat ikut ujian: Minimum 75% kehadiran, tidak ada tunggakan administrasi, terdaftar di SIAKAD",
+        "Jadwal ujian per mata kuliah tersedia di dashboard mahasiswa → filter by course → lihat exam schedule",
+        "Sure! Informasi ujian lengkap bisa diakses melalui sistem akademik kampus",
+        "Tentu! Semua detail ujian tersedia di portal mahasiswa dengan update real-time",
+        "Definitely! Exam information is always updated in your student dashboard 📊"
+      ]
+    },
+    {
+      "tag": "assignment_help",
+      "patterns": [
+        "Gimana cara submit tugas online?",
+        "Deadline tugas mata kuliah kapan ya?",
+        "Format pengumpulan tugas seperti apa?",
+        "Dimana upload tugas akhir?",
+        "Tugas kelompok gimana cara koordinasinya?",
+        "tugas",
+        "assignment",
+        "homework",
+        "project",
+        "submit tugas",
+        "deadline",
+        "due date",
+        "upload",
+        "format tugas",
+        "tugas kelompok",
+        "group work",
+        "individual assignment",
+        "paper",
+        "essay",
+        "laporan"
+      ],
+      "responses": [
+        "Submit tugas: Login LMS → pilih mata kuliah → menu 'Assignment' → upload file → submit 📤",
+        "Deadline tugas bisa dicek di Learning Management System atau silabus mata kuliah",
+        "Format tugas: Biasanya PDF/Word, nama file: NIM_Nama_Tugas, maksimal 10MB per file",
+        "Upload tugas akhir: Portal akademik → menu 'Final Project' → upload sesuai template yang disediakan",
+        "Tugas kelompok: Gunakan Google Workspace kampus atau Teams untuk kolaborasi real-time",
+        "Sure! Assignment submission process is straightforward through our LMS platform",
+        "Tentu! Semua informasi tugas dan deadline terintegrasi dalam sistem pembelajaran",
+        "Definitely! Our digital submission system makes assignment management easier 🎯"
+      ]
+    },
+    {
+      "tag": "library_services",
+      "patterns": [
+        "Jam buka perpustakaan kampus berapa?",
+        "Cara pinjam buku di library gimana?",
+        "E-book dan journal online akses dimana?",
+        "Ruang diskusi perpustakaan bisa booking?",
+        "Denda telat kembalikan buku berapa?",
+        "perpustakaan",
+        "library",
+        "buku",
+        "book",
+        "pinjam buku",
+        "borrow",
+        "e-book",
+        "journal",
+        "artikel",
+        "research",
+        "thesis",
+        "skripsi",
+        "referensi",
+        "citation",
+        "database",
+        "ruang baca"
+      ],
+      "responses": [
+        "Perpustakaan buka: Senin-Jumat 07.00-21.00, Sabtu-Minggu 08.00-17.00 📚",
+        "Pinjam buku: Scan barcode KTM → cari buku → scan barcode buku → otomatis tercatat",
+        "E-resources: Portal library → login dengan akun kampus → akses 50+ database international",
+        "Booking ruang diskusi: Library portal → 'Room Reservation' → pilih waktu → konfirmasi 🏛️",
+        "Denda buku: Rp 1.000/hari per buku. Bisa dibayar di cashier library atau auto-debet",
+        "Sure! Library services are comprehensive with both physical and digital resources",
+        "Tentu! Fasilitas perpustakaan modern dengan teknologi terdepan untuk research",
+        "Definitely! Our library supports all your academic research needs 24/7 📖"
+      ]
+    },
+    {
+      "tag": "technology_support",
+      "patterns": [
+        "WiFi kampus lemot gimana solusinya?",
+        "Login portal akademik error terus nih",
+        "Email kampus tidak bisa diakses kenapa?",
+        "Aplikasi mobile kampus crash melulu",
+        "Zoom meeting kuliah online trouble",
+        "wifi",
+        "internet",
+        "login",
+        "password",
+        "email",
+        "portal",
+        "sistem",
+        "system",
+        "error",
+        "trouble",
+        "technical",
+        "IT support",
+        "helpdesk",
+        "aplikasi",
+        "app",
+        "zoom",
+        "teams",
+        "LMS"
+      ],
+      "responses": [
+        "WiFi trouble: Restart device → forget & reconnect network → atau hubungi IT helpdesk ext. 333 📶",
+        "Portal error: Clear browser cache → try incognito mode → reset password if needed",
+        "Email kampus: Cek quota inbox → reset password di IT center → atau gunakan webmail portal",
+        "App mobile: Update ke versi terbaru → clear app data → reinstall jika masih bermasalah 📱",
+        "Zoom trouble: Test connection → update Zoom app → gunakan ethernet jika WiFi unstable",
+        "Sure! IT support team siap bantu troubleshoot masalah teknologi 24/7",
+        "Tentu! Technical issues bisa langsung dilaporkan ke helpdesk untuk quick resolution",
+        "Definitely! Our tech support ensures smooth digital learning experience 🔧"
+      ]
+    },
+    {
+      "tag": "internship_info",
+      "patterns": [
+        "Cara daftar magang atau PKL gimana?",
+        "Persyaratan internship apa aja ya?",
+        "Dimana bisa cari tempat magang?",
+        "Durasi PKL minimal berapa bulan?",
+        "Laporan magang formatnya seperti apa?",
+        "magang",
+        "internship",
+        "pkl",
+        "praktek kerja lapangan",
+        "work experience",
+        "industrial training",
+        "coop",
+        "cooperative education",
+        "job training",
+        "work placement",
+        "field work",
+        "praktikum",
+        "kerja praktek",
+        "on the job training"
+      ],
+      "responses": [
+        "Daftar PKL: Minimal semester 6 → cari tempat magang → daftar ke koordinator PKL → approval 💼",
+        "Syarat internship: IPK ≥2.75, lulus ≥110 SKS, surat pengantar kampus, CV terbaru",
+        "Cari tempat magang: Job portal kampus, career center, alumni network, atau direct application",
+        "Durasi PKL: Minimal 3 bulan (240 jam kerja), maksimal 6 bulan tergantung program studi",
+        "Laporan PKL: Format sesuai template kampus, include logbook, assessment, dan reflection paper 📄",
+        "Sure! Internship programs are well-coordinated dengan industry partners",
+        "Tentu! Career center membantu matching mahasiswa dengan perusahaan terbaik",
+        "Definitely! PKL is essential preparation for your professional career 🚀"
+      ]
+    }
+  ]
+}
